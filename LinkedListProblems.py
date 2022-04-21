@@ -1,5 +1,7 @@
 
 #Homework 1
+# Given a singly-linked list, rearrange the nodes by interleaving the first half of the linked list with the second half.
+
 def interweavelinkedList(head):
     count = 0
     node = head
@@ -58,6 +60,7 @@ def weaveTwoArr(head1, head2):
     return head
 
 # Homework 2
+# Rotate a given singly-linked list counter-clockwise by k nodes, where k is a given integer.
 def rotateArr(head, k):
     for j in range(k):
         node = head.next
@@ -70,6 +73,7 @@ def rotateArr(head, k):
     return new_head
 
 # Homework 3
+# Given an array of k singly-linked lists, each of whose values are in sorted order, combine all nodes (do not create new nodes) into one singly-linked list with all values in order.
 def combineLists(arr):
     # O(1)
     i = 0
@@ -149,6 +153,7 @@ def mergeTwoLinkedLists(head1, head2):
 
 
 # Homework 4
+# Given a singly-linked list and an integer k, find the value in the kth-to-last node.
 def valueFromLastNode(head, k):
     # O(1)
     node = head
