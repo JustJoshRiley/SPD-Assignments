@@ -1,6 +1,5 @@
-# Given a binary search tree, reverse the order of its values by modifying the nodes’ links.
-
 # Homework 1
+# Given a binary search tree, reverse the order of its values by modifying the nodes’ links.
 def reverseOrder(root):
     if root != None:
         a = reverseOrder(root.left)
@@ -13,6 +12,7 @@ def reverseOrder(root):
 
 
 # Homework 5
+# Given a binary tree, check whether it is a valid binary search tree (values in order).
 def isBalanced(root):
     # check to see if there is a tree
     if root == None:
